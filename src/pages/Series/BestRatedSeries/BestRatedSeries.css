@@ -1,0 +1,24 @@
+.best-series-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.best-series{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+@media(max-width:1071px) {
+    .best-series-container {
+        width: 90%;
+    }
+}
+
+@media(max-width:785px) {
+    .best-series-container {
+        width: 100%;
+    }
+}

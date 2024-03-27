@@ -1,0 +1,44 @@
+.popular-series-list-container {
+    margin: 20px 20px 10px 10px;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .popular-series-list-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .popular-series-list-image {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .popular-series-list-head {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+  }
+  
+  .popular-series-list-title {
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .popular-series-list-info {
+    font-size: 14px;
+  }
+  
+  .popular-series-list-imdb {
+    color: red;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  
+  
+  @media(max-width:1070px) {
+    .popular-series-list-container {
+      width: 200px;
+    }
+  }

@@ -1,0 +1,47 @@
+.trend-container {
+    margin: 12px;
+    width: 140px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+  }
+  .trend-container:hover {
+    transform: scale(1.1);
+  }
+  .trend-movie-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .trend-movie-info-head {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+  }
+  .trend-movie-title {
+    height: 30px;
+    font-size: 14px;
+  }
+  .trend-movie-info {
+    font-size: 14px;
+  }
+  .trend-movie-imdb {
+    color: red;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+  
+  .trend-movie-icons-container {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 6px;
+  }
+  .trend-movie-icon-heart {
+    font-size: 18px;
+    color: orange;
+  }
+  
+  .trend-movie-icon-eyes {
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,24 @@
+.actors-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.actors-series{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+@media(max-width:1071px) {
+    .actors-container {
+        width: 90%;
+    }
+}
+
+@media(max-width:785px) {
+    .actors-container {
+        width: 100%;
+    }
+}

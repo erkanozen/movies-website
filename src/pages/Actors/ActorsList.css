@@ -1,0 +1,48 @@
+.actors-list-container {
+    margin: 50px 20px 10px 10px;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    margin-bottom: 50px;
+  }
+  
+  .actors-list-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .actors-list-image {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .error-image{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ccc;
+  }
+  
+  .actors-list-title {
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .actors-list-head {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 8px;
+    height: 80px;
+  }
+  
+  .actors-list-info {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 1070px) {
+    .actors-list-container {
+      width: 200px;
+    }
+  }
+  

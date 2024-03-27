@@ -1,0 +1,25 @@
+.popular-series-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.populer-series{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+@media(max-width:1071px) {
+    .popular-series-container {
+        width: 90%;
+    }
+}
+
+@media(max-width:785px) {
+    .popular-series-container {
+        width: 100%;
+    }
+}

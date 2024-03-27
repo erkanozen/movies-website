@@ -1,0 +1,100 @@
+.footer-container {
+    background-color: #032541;
+    color: white;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  
+  .footer-title {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+  }
+  
+  .footer-form-title {
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 18px;
+  }
+  
+  .footer-form-label {
+    font-size: 14px;
+    padding: 4px;
+  }
+  
+  .footer-form-input {
+    padding: 4px;
+    outline: none;
+    border: none;
+    margin: 3px 0;
+  }
+  
+  .footer-form-input::placeholder {
+    font-size: 12px;
+  }
+  
+  .footer-form-textarea {
+    padding: 10px;
+    resize: none;
+    outline: none;
+  }
+  
+  .footer-form-textarea::placeholder {
+    font-size: 10px;
+  }
+  
+  .form-button {
+    margin-top: 10px;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: yellowgreen;
+    cursor: pointer;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    column-gap: 40px;
+  }
+  
+  .icon {
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+  }
+  .icon:hover {
+    transform: scale(1.09);
+  }
+  
+  .footer-end {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  
+  

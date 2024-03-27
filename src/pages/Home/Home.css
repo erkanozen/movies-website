@@ -1,0 +1,82 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url("../../../public/wind.jpg");
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .home-title {
+    font-size: 48px;
+    color: #032541;
+  }
+  
+  .home-info {
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .search-form {
+    position: relative;
+    margin-top: 10px;
+  }
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .search-input::placeholder {
+    font-size: 14px;
+    color: #032541;
+  }
+  
+  .search-button {
+    width: 120px;
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 62, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  @media(max-width:768px) {
+    .home-title {
+      font-size: 42px;
+    }
+      .home-info{
+        font-size: 20px;
+      }
+  }
+  
+  @media(max-width:500px) {
+    .home-title {
+      font-size: 36px;
+    }
+      .home-info{
+        font-size: 16px;
+      }
+  
+    
+  }
+  
